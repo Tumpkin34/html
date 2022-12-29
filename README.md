@@ -175,44 +175,44 @@ SSL(Secure Socket Layer) 프로토콜을 이용하여 자원을 공개키 암호
 	   입력 받기 위해 사용되는 태그,
 	   데이터를 지정하여 전달할 때 사용하는 태그
 
-type : 입력 종류를 설정
-name : value의 key값
-value : 사용자가 입력한 값(입력 전에 미리 값을 넣어줄 수 있다).
-placeholder : 값은 아니지만 미리 출력해줄 문구를 작성할 수 있다.
-readonly : 수정할 수 없도록 하는 설정
-required : 필수 항목
-maxlength : 글자 수 제한
+type : 입력 종류를 설정<br>
+name : value의 key값<br>
+value : 사용자가 입력한 값(입력 전에 미리 값을 넣어줄 수 있다).<br>
+placeholder : 값은 아니지만 미리 출력해줄 문구를 작성할 수 있다.<br>
+readonly : 수정할 수 없도록 하는 설정<br>
+required : 필수 항목<br>
+maxlength : 글자 수 제한<br>
 
 # input 태그의 type
 
 	   <input type="값">
-*text : 텍스트 입력(작성한 텍스트가 눈으로 보임)
-*password : 텍스트 입력(작성한 텍스트가 눈으로 안보임)
-*radio : 여러 개 중 하나의 옵션만 선택 가능
-*checkbox : 여러 개 중 다수의 옵션 선택 가능
-*file : 파일 전송(첨부파일 업로드)
-color : 색상 선택
-email : 이메일 입력(골뱅이 포함 입력)
-url : http://로 입력
-tel : 핸드폰 번호 입력
-date : 날짜 입력(브라우저 별로 캘린더의 스타일은 다를 수 있다)
-number, min, max, step : 숫자 입력
-range : 일정 범위 안의 값만 입력
-search : 검색어를 입력
-*button, submit, reset : 버튼, 전송, 초기화
+*text : 텍스트 입력(작성한 텍스트가 눈으로 보임)<br>
+*password : 텍스트 입력(작성한 텍스트가 눈으로 안보임)<br>
+*radio : 여러 개 중 하나의 옵션만 선택 가능<br>
+*checkbox : 여러 개 중 다수의 옵션 선택 가능<br>
+*file : 파일 전송(첨부파일 업로드)<br>
+color : 색상 선택<br>
+email : 이메일 입력(골뱅이 포함 입력)<br>
+url : http://로 입력<br>
+tel : 핸드폰 번호 입력<br>
+date : 날짜 입력(브라우저 별로 캘린더의 스타일은 다를 수 있다)<br>
+number, min, max, step : 숫자 입력<br>
+range : 일정 범위 안의 값만 입력<br>
+search : 검색어를 입력<br>
+*button, submit, reset : 버튼, 전송, 초기화<br>
 
 # 선택 입력
 	   select 태그는 여러 개의 옵션이 드롭다운 리스트로 되어 있으며,
 	   그 중 단 하나의 옵션만을 입력받을 수 있다.
 
-<select name="">
- <option value="">사용자에게 보여질 값</option>
- <option value="">사용자에게 보여질 값</option>
- <option value="">사용자에게 보여질 값</option>
- <option value="">사용자에게 보여질 값</option>
- <option value="">사용자에게 보여질 값</option>
- ...
-</select>
+<select name=""><br>
+ <option value="">사용자에게 보여질 값</option><br>
+ <option value="">사용자에게 보여질 값</option><br>
+ <option value="">사용자에게 보여질 값</option><br>
+ <option value="">사용자에게 보여질 값</option><br>
+ <option value="">사용자에게 보여질 값</option><br>
+ ...<br>
+</select><br>
 
 # 문장 입력
 	   textarea 요소는 사용자로부터 여러 줄의 텍스트를 입력받을 수 있다.
